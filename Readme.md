@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Олег Артёмов](https://up.htmlacademy.ru/htmlcss/20/user/132783).
-* Наставник: `Неизвестно`.
+* Наставник: `Николай Думчев` (https://htmlacademy.ru/profile/nikopol_freeway).
 
 ---
 
