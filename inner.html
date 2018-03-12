@@ -23,34 +23,62 @@
       <h1 class="visually-hidden">Бронирование отелей</h1>
       <section class="hotel-filters">
         <h2 class="visually-hidden">Сортировка</h2>
-        <div class="benefits">
-          <h3>ИНФРАСТРУКТУРА</h3>
-          <ul class="benefits-list">
-            <li class="benefits-item">БАССЕЙН</li>
-            <li class="benefits-item">Парковка</li>
-            <li class="benefits-item">Wi-FI</li>
-          </ul>
-        </div>
-        <div class="type of accommodation">
-         <h3>Тип жилья</h3>
-          <ul class="type of accommodation-list">
-            <li class="type of accommodation-item">Гостиница</li>
-            <li class="type of accommodation-item">Мотель</li>
-            <li class="type of accommodation-item">Апартаменты</li>
-         </ul>
-        </div>
+        <form class="benefits" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>>ИНФРАСТРУКТУРА</h3></legend>
+            <ul class="benefits-list">
+              <li class="benefits-item">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Pool" id="filter-pool" checked>
+                <label for="filter-pool">Бассейн</label>
+              </li>
+              <li class="benefits-item">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Parking" id="filter-parking">
+                <label for="filter-parking">Парковка</label>
+              </li>
+              <li class="benefits-item">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="WiFI" id="filter-wifi">
+                <label for="filter-wifi">Wi-FI</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья</legend>
+            <ul class="type of accommodation-list">
+              <li class="type of accommodation-item">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Hotel" id="filter-hotel" checked>
+                <label for="filter-hotel">Гостиница</label>
+              </li>
+              <li class="type of accommodation-item">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Motel" id="filter-motel" checked>
+                <label for="filter-motel">Мотель</label>
+              </li>
+              <li class="type of accommodation-item">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Apartment" id="filter-apartment" checked>
+                <label for="filter-apartment">Апартаменты</label>
+              </li>
+            </ul>
+          </fieldset>
         <div class="price-day">
           <h3>Стоимость в сутки</h3>
           <!--форма-->
-          <span class="sort-button">Показать</span>
-        </div>
+          <input type="submit" value="Показать">
+        </form>
         <div class="sorting">
           <b> найдено:#</b>
-          <p>Сортировка:</p>
+          <legend>Сортировка:</legend>
           <ul class="sorting-list">
-            <li class="sorting-item"> По цене</li>
-            <li class="sorting-item"> По типу</li>
-            <li class="sorting-item"> По рейтингу</li>
+            <li class="sorting-item">
+              <input class="visually-hidden filter-input-radio" type="radio" name="sorting-filter" value="price" id="sorting-price">
+              <label for="sorting-price">По цене</label>
+            </li>
+            <li class="sorting-item">
+              <input class="visually-hidden filter-input-radio" type="radio" name="sorting-filter" value="type" id="sorting-type">
+              <label for="sorting-type">По типу</label>
+            </li>
+            <li class="sorting-item">
+              <input class="visually-hidden filter-input-radio" type="radio" name="sorting-filter" value="rating" id="sorting-rating">
+              <label for="sorting-rating">По рейтингу</label>
+            </li>
           </ul>
           <ul class="sorting-line">
             <li class="sorting-line-up"></li>
@@ -65,8 +93,8 @@
             <p><img src="img/amara-resort.jpg" alt="Гостиница Amara Resort & Spa"></p>
             <p>Гостиница</p>
             <span class="price-start">от 4000p</span>
-            <span class="more-info-button"><a href="amala-resort.html">Подробнее</a></span>
-            <span class="booking-button"><a href="booking.html">Забронировать</a></span>
+            <button class="more-info-button"><a href="amala-resort.html">Подробнее</a></button>
+            <button class="booking-button"><a href="booking.html">Забронировать</a></button>
             <span class="stars">Звезды рейтинга</span>
             <span class="rating">Рейтинг:8,5</span>
           </li>
@@ -74,8 +102,8 @@
             <p><img src="img/Desert-Quallin-Inn.jpg" alt="Desert Quail Inn"></p>
             <p>Мотель</p>
             <span class="price-start">от 3000p</span>
-            <span class="more-info-button"><a href="Мотель Desert-Quail-Inn.html">Подробнее</a></span>
-            <span class="booking-button"><a href="booking.html">Забронировать</a></span>
+            <button class="more-info-button"><a href="Мотель Desert-Quail-Inn.html">Подробнее</a></button>
+            <button class="booking-button"><a href="booking.html">Забронировать</a></button>
             <span class="stars">Звезды рейтинга</span>
             <span class="rating">Рейтинг:8,9</span>
           </li>
@@ -83,8 +111,8 @@
             <p><img src="img/Villas-at-Poco-Diablo.jpg" alt="Апартаменты Villas at Poco Diablo"></p>
             <p>Апартаменты</p>
             <span class="price-start">от 4000p</span>
-            <span class="more-info-button"><a href="Villas-at-Poco-Diablo.html">Подробнее</a></span>
-            <span class="booking-button"><a href="booking.html">Забронировать</a></span>
+            <button class="more-info-button"><a href="Villas-at-Poco-Diablo.html">Подробнее</a></button>
+            <button class="booking-button"><a href="booking.html">Забронировать</a></button>
             <span class="stars">Звезды рейтинга</span>
             <span class="rating">Рейтинг:8,5</span>
           </li>

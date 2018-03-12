@@ -62,7 +62,7 @@
           <li class="reasons-item">
             <h3>Красивая дорога</h3>
             <span class="numerical">— №4 —</span>
-            <p> ВСЕ достопримечательности  находятся очень близко</p>
+            <p> ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
           </li>
           <li class="reasons-item">
             <h3>МАЛО ТУРИСТОВ</h3>
@@ -76,7 +76,16 @@
         <b>ЗАИНТЕРЕСОВАЛИСЬ?</b>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <img src="map.png" alt="Карта гостиниц">
-        <!--- форма -->
+        <form class="booking" method="post" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Поиск гостиницы в Седоне</legend>
+            <input type="date" name="booking" id="checkin-date">
+            <label for="checkin-date">Дата заезда</label>
+            <input type="date" name="booking" id="checkout-date">
+            <label for="checkout-date">Дата выезда</label>
+            <input type="submit" value="Найти">
+          </fieldset>
+        </form>
       </section>
     </main>
     <footer class="main-footer">
