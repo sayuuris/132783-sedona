@@ -76,15 +76,21 @@
         <b>ЗАИНТЕРЕСОВАЛИСЬ?</b>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <img src="img/map.png" alt="Карта гостиниц">
+        <button class="booking-form">Поиск гостиницы в Седоне</button>
         <form class="booking" method="post" action="https://echo.htmlacademy.ru">
-          <fieldset>
-            <legend>Поиск гостиницы в Седоне</legend>
-            <input type="date" name="booking" id="checkin-date">
             <label for="checkin-date">Дата заезда</label>
-            <input type="date" name="booking" id="checkout-date">
+            <input type="text" name="booking" id="checkin-date">
+            <button class="booking-calendar"></button>
             <label for="checkout-date">Дата выезда</label>
-            <input type="submit" value="Найти">
-          </fieldset>
+            <input type="text" name="booking" id="checkout-date">
+            <button class="booking-calendar"></button>
+            <label for="booking-adults">Взрослые</label>
+            <input type="text" name="booking" id="booking-adults">
+            <button class="booking-number"></button>
+            <label for="booking-kids">Дети</label>
+            <input type="text" name="booking" id="booking-kids">
+            <button class="booking-number"></button>
+            <button class="booking-button"  type="submit">Найти</button>
         </form>
       </section>
     </main>
@@ -99,8 +105,8 @@
       </div>
       <div class="footer-copyright">
         <p>webside by
-          <a class="main-footer-logo">
-            <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Лого HTML Academy">
+          <a class="main-footer-logo" href="https://htmlacademy.ru/intensive/htmlcss">
+            <img src="img/logo-htmlacademy.svg"  width="115" height="41" alt="Лого HTML Academy">
           </a>
         </p>
       </div>

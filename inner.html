@@ -25,7 +25,7 @@
         <h2 class="visually-hidden">Сортировка</h2>
         <form class="benefits" method="get" action="https://echo.htmlacademy.ru">
           <fieldset>
-            <legend>>ИНФРАСТРУКТУРА</h3></legend>
+            <legend>инфрастуктура</legend>
             <ul class="benefits-list">
               <li class="benefits-item">
                 <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Pool" id="filter-pool" checked>
@@ -58,31 +58,34 @@
               </li>
             </ul>
           </fieldset>
-        <div class="price-day">
-          <h3>Стоимость в сутки</h3>
-          <!--форма-->
-          <input type="submit" value="Показать">
+          <fieldset>
+            <legend>Стоимость в сутки</legend>
+            <label for="price-from">От</label>
+            <input type="text" name="filter-price" id="price-from">
+            <label for="price-to">До</label>
+            <input type="text" name="filter-price" id="price-to">
+            <button class="button-filter">Показать</button>
+          </fieldset>
         </form>
         <div class="sorting">
           <b> найдено:#</b>
-          <legend>Сортировка:</legend>
+          <h3>Сортировка:</h3>
           <ul class="sorting-list">
             <li class="sorting-item">
-              <input class="visually-hidden filter-input-radio" type="radio" name="sorting-filter" value="price" id="sorting-price">
-              <label for="sorting-price">По цене</label>
+              <a href="#">По цене</a>
             </li>
             <li class="sorting-item">
-              <input class="visually-hidden filter-input-radio" type="radio" name="sorting-filter" value="type" id="sorting-type">
-              <label for="sorting-type">По типу</label>
+              <a href="#">По типу</a>
             </li>
             <li class="sorting-item">
-              <input class="visually-hidden filter-input-radio" type="radio" name="sorting-filter" value="rating" id="sorting-rating">
-              <label for="sorting-rating">По рейтингу</label>
+              <a href="#">По рейтингу</a>
             </li>
-          </ul>
-          <ul class="sorting-line">
-            <li class="sorting-line-up"></li>
-            <li class="sorting-line-down"></li>
+            <li class="visually-hidden sorting-item">
+              <a href="#">По возрастанию</a>
+            </li>
+            <li class="visually-hidden sorting-item">
+              <a href="#">По убыванию</a>
+            </li>
           </ul>
         </div>
       </section>
@@ -93,8 +96,8 @@
             <p><img src="img/amara-resort.jpg" alt="Гостиница Amara Resort & Spa"></p>
             <p>Гостиница</p>
             <span class="price-start">от 4000p</span>
-            <button class="more-info-button"><a href="amala-resort.html">Подробнее</a></button>
-            <button class="booking-button"><a href="booking.html">Забронировать</a></button>
+            <a href="amala-resort.html">Подробнее</a>
+            <a href="booking.html">Забронировать</a>
             <span class="stars">Звезды рейтинга</span>
             <span class="rating">Рейтинг:8,5</span>
           </li>
@@ -102,8 +105,8 @@
             <p><img src="img/Desert-Quallin-Inn.jpg" alt="Desert Quail Inn"></p>
             <p>Мотель</p>
             <span class="price-start">от 3000p</span>
-            <button class="more-info-button"><a href="Мотель Desert-Quail-Inn.html">Подробнее</a></button>
-            <button class="booking-button"><a href="booking.html">Забронировать</a></button>
+            <a href="Desert-Quail-Inn.html">Подробнее</a>
+            <a href="booking.html">Забронировать</a>
             <span class="stars">Звезды рейтинга</span>
             <span class="rating">Рейтинг:8,9</span>
           </li>
@@ -111,8 +114,8 @@
             <p><img src="img/Villas-at-Poco-Diablo.jpg" alt="Апартаменты Villas at Poco Diablo"></p>
             <p>Апартаменты</p>
             <span class="price-start">от 4000p</span>
-            <button class="more-info-button"><a href="Villas-at-Poco-Diablo.html">Подробнее</a></button>
-            <button class="booking-button"><a href="booking.html">Забронировать</a></button>
+            <a href="Villas-at-Poco-Diablo.html">Подробнее</a>
+            <a href="booking.html">Забронировать</a>
             <span class="stars">Звезды рейтинга</span>
             <span class="rating">Рейтинг:8,5</span>
           </li>
@@ -131,7 +134,7 @@
       </div>
       <div class="footer-copyright">
         <p>webside by
-          <a class="main-footer-logo">
+          <a class="main-footer-logo" href="https://htmlacademy.ru/intensive/htmlcss">
             <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Лого HTML Academy">
           </a>
         </p>
