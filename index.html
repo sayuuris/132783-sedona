@@ -75,23 +75,33 @@
         <h2 class="visually-hidden"> Бронирование</h2>
         <b>ЗАИНТЕРЕСОВАЛИСЬ?</b>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <img src="img/map.png" alt="Карта гостиниц">
-        <button class="booking-form">Поиск гостиницы в Седоне</button>
+        <button class="booking-form" type="button">Поиск гостиницы в Седоне</button>
         <form class="booking" method="post" action="https://echo.htmlacademy.ru">
-            <label for="checkin-date">Дата заезда</label>
-            <input type="text" name="booking" id="checkin-date">
-            <button class="booking-calendar"></button>
-            <label for="checkout-date">Дата выезда</label>
-            <input type="text" name="booking" id="checkout-date">
-            <button class="booking-calendar"></button>
-            <label for="booking-adults">Взрослые</label>
-            <input type="text" name="booking" id="booking-adults">
-            <button class="booking-number"></button>
-            <label for="booking-kids">Дети</label>
-            <input type="text" name="booking" id="booking-kids">
-            <button class="booking-number"></button>
+            <p>
+              <label for="checkin-date">Дата заезда</label>
+              <input type="text" name="booking" id="checkin-date">
+              <button class="booking-calendar" type="button"><span class="visually-hidden">Открыть календарь</span></button>
+            </p>
+            <P>
+              <label for="checkout-date">Дата выезда</label>
+              <input type="text" name="booking" id="checkout-date">
+              <button class="booking-calendar" type="button"><span class="visually-hidden">Открыть календарь</span></button>
+            </P>
+            <p>
+              <label for="booking-adults">Взрослые</label>
+              <button class="visually-hidden booking-number" type="button">Уменьшить</button>
+              <input type="text" name="booking" id="booking-adults" pattern="[0-9]">
+              <button class="visually-hidden booking-number" type="button">Увеличить</button>
+            </p>
+            <P>
+              <label for="booking-kids">Дети</label>
+              <button class="visually-hidden booking-number" type="button">Уменьшить</button>
+              <input type="text" name="booking" id="booking-kids" pattern="[0-9]">
+              <button class="visually-hidden booking-number" type="button">Увеличить</button>
+            </p>
             <button class="booking-button"  type="submit">Найти</button>
         </form>
+        <img src="img/map.png" alt="Карта гостиниц">
       </section>
     </main>
     <footer class="main-footer">
@@ -105,7 +115,7 @@
       </div>
       <div class="footer-copyright">
         <p>webside by
-          <a class="main-footer-logo" href="https://htmlacademy.ru/intensive/htmlcss">
+          <a class="main-footer-logo" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
             <img src="img/logo-htmlacademy.svg"  width="115" height="41" alt="Лого HTML Academy">
           </a>
         </p>
