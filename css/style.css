@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: o;
+  padding: 0;
 
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
@@ -17,8 +17,8 @@ a {
 .main-navigation {
   line-height: 26px;
   font-weight: 700;
-  text-transform: uppercase; 
-  color: #333333;
+  text-transform: uppercase;
+  color: #000000;
   background-color: #fefefe;
 }
 .site-navigation {
@@ -27,7 +27,16 @@ a {
 .site-navigation a {
   color: #333333;
 }
-main b{
+.site-navigation a:hover {
+  color: #9fc4dc;
+}
+.site-navigation a:active {
+  color: #d4d4d4;
+}
+.site-navigation .active {
+  color: #8a7a70;
+}
+.container b {
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
@@ -54,4 +63,178 @@ main b{
 .hotels-search p {
   line-height: 24px;
   text-align: center;
+}
+.button-form {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #766357;
+  border: none;
+}
+.button-form:hover {
+  background-color: #604e43;
+}
+.button-form:active {
+  color:#928a85;
+  background-color: #503e33;
+}
+.booking p {
+  line-height: 26px;
+  font-weight: 700;
+}
+.checkin-date input {
+  color:#000000;
+  background-color: #f2f2f2;
+  font-weight: 700;
+}
+.checkin-date input:hover {
+  background-color: #ebebeb;
+}
+.checkin-date input:focus {
+  background-color: #ffffff;
+}
+.checkout-date input {
+  color:#000000;
+  background-color: #f2f2f2;
+  font-weight: 700;
+}
+.checkout-date input:hover {
+  background-color: #ebebeb;
+}
+.checkout-date input:focus {
+  background-color: #ffffff;
+}
+.booking-adults input {
+  color:#000000;
+  background-color: #f2f2f2;
+  font-weight: 700;
+}
+.booking-kids input {
+  color:#000000;
+  background-color: #f2f2f2;
+  font-weight: 700;
+}
+.booking-button {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+  border: none;
+}
+.booking-button:hover {
+  background-color: #669ec0;
+}
+.booking-button:active {
+  color:#94b9d2;
+  background-color: #5496bd;
+}
+.footer-sosial ul {
+  list-style: none;
+}
+.sosial-button a {
+  color:#ffffff;
+  background-color: #81b3d2;
+}
+.benefits {
+  color: #ffffff;
+  background-color: #83b1d1;
+}
+.benefits legend {
+  font-size:16px;
+  font-weight: 700;
+}
+.button-filter {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+}
+.button-filter:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.sorting b {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 700;
+}
+.sorting h3 {
+  font-size: 12px;
+  line-height: 18px;
+  color:#000000;
+}
+.sorting-list {
+  list-style: none;
+}
+.sorting-list a {
+  font-size: 12px;
+  line-height: 18px;
+  color: #d4d4d4;
+}
+.sorting-list a:hover {
+  color: #9fc4dc;
+}
+.sorting-list a:active {
+  color: #000000;
+}
+.sorting-list a:link {
+  color: #9fc4dc;
+}
+.sorting-arrow {
+  list-style: none;
+}
+.sorting-arrow a {
+  color: #d4d4d4;
+}
+.sorting-arrow a:active {
+  color: #9fc4dc;
+}
+.hotels-booking-list {
+  list-style: none;
+}
+.hotels-booking h3 {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 700;
+}
+.rating {
+  background-color: #f2f2f2
+}
+.more-info {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+.more-info:hover {
+  background-color: #669ec0;
+}
+.more-info:active {
+  color: #8bb4cf;
+  background-color: #5496bd;
+}
+.reservation {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #766357;
+}
+.reservation:hover {
+  background-color: #604e43;
+}
+.reservation:active {
+  color: #8bb4cf;
+  background-color: #503e33;
 }

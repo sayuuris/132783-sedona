@@ -26,7 +26,7 @@
     <main class="container">
       <h1 class="visually-hidden">Город Седона</h1>
       <b> седона — небольшой городок в аризоне,<br>
-      заслуживающий большего! 
+      заслуживающий большего!
       </b>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       <section class="reasons">
@@ -81,25 +81,25 @@
         <p>Укажите предполагаемые даты поездки,<br>
         и мы покажем вам лучшие предложения гостиниц в седоне
         </p>
-        <button class="booking-form" type="button">Поиск гостиницы в Седоне</button>
+        <button class="button-form" type="button">Поиск гостиницы в Седоне</button>
         <form class="booking" method="post" action="https://echo.htmlacademy.ru">
-            <p>
+            <p class="checkin-date">
               <label for="checkin-date">Дата заезда</label>
               <input type="text" name="booking" id="checkin-date">
               <button class="booking-calendar" type="button"><span class="visually-hidden">Открыть календарь</span></button>
             </p>
-            <P>
+            <p class="checkout-date">
               <label for="checkout-date">Дата выезда</label>
               <input type="text" name="booking" id="checkout-date">
               <button class="booking-calendar" type="button"><span class="visually-hidden">Открыть календарь</span></button>
             </P>
-            <p>
+            <p class="booking-adults">
               <label for="booking-adults">Взрослые</label>
               <button class="visually-hidden booking-number" type="button">Уменьшить</button>
               <input type="text" name="booking" id="booking-adults" pattern="[0-9]{2}">
               <button class="visually-hidden booking-number" type="button">Увеличить</button>
             </p>
-            <P>
+            <p class="booking-kids">
               <label for="booking-kids">Дети</label>
               <button class="visually-hidden booking-number" type="button">Уменьшить</button>
               <input type="text" name="booking" id="booking-kids" pattern="[0-9]{2}">
