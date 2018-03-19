@@ -233,6 +233,8 @@ a {
   line-height: 21px;
   color: #ffffff;
   background-color: #81b3d2;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .more-info:hover {
   background-color: #669ec0;
@@ -246,6 +248,8 @@ a {
   line-height: 21px;
   color: #ffffff;
   background-color: #766357;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .reservation:hover {
   background-color: #604e43;
