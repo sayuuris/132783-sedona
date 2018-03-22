@@ -15,8 +15,6 @@ a {
   text-decoration: none;
 }
 .main-navigation {
-  display: flex;
-  flex-direction: column;
   line-height: 26px;
   font-weight: 700;
   text-transform: uppercase;
@@ -24,10 +22,14 @@ a {
   background-color: #ffffff;
 }
 .site-navigation {
-  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 56px;
   margin: 0;
   padding: 0;
   list-style: none;
+  align-items: center;
 }
 .site-navigation a {
   color: #000000;
