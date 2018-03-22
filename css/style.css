@@ -49,22 +49,23 @@ a {
   color: #a0938b;
 }
 .site-navigation-item {
-  flex-basis: 20%;
+  flex-basis: 25%;
 }
 .site-navigation-item:nth-child(1) {
-  text-align: center;
+  text-align: left;
+  margin-left: 72px;
 }
 .site-navigation-item:nth-child(2) {
   text-align: left;
-  margin-right:0px;
+  margin-right:43px;
 }
 .site-navigation-item:nth-child(3) {
   text-align: right;
-  margin-left:0px;
+  margin-left:43px;
 }
 .site-navigation-item:nth-child(4) {
-  text-align: center;
-
+  text-align: right;
+  margin-right: 72px;
 }
 .welcome-title {
   position: absolute;
