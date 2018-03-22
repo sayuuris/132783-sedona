@@ -21,6 +21,11 @@ a {
   color: #000000;
   background-color: #ffffff;
 }
+.main-header-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .site-navigation {
   display: flex;
   justify-content: space-between;
@@ -42,6 +47,28 @@ a {
 }
 .site-navigation-item a.active {
   color: #a0938b;
+}
+.site-navigation-item {
+  flex-basis: 20%;
+}
+.site-navigation-item:nth-child(1) {
+  text-align: center;
+}
+.site-navigation-item:nth-child(2) {
+  text-align: left;
+  margin-right:0px;
+}
+.site-navigation-item:nth-child(3) {
+  text-align: right;
+  margin-left:0px;
+}
+.site-navigation-item:nth-child(4) {
+  text-align: center;
+
+}
+.welcome-title {
+  position: absolute;
+
 }
 .container {
   width: 1200px;
