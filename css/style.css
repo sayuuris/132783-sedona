@@ -68,7 +68,7 @@ a {
   margin-right: 72px;
 }
 .welcome-title {
-  position: absolute;
+  position: relative;
   top:120px;
   right: 720px;
 }
@@ -106,16 +106,27 @@ a {
   padding: 0px;
 }
 .town-reasons-list {
+  display: flex;
   color: #000000;
   background-color: #ffffff;
   list-style: none;
+  min-height: 330px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 .town-reasons-item {
-
+  width: 400px;
+  text-align: center;
+  margin-top: 165px;
 }
 .reasons-item-img {
   background-color: #81b3d2;
   color: #ffffff;
+}
+.reasons-list {
+  display: flex;
+  flex-direction: column;
 }
 .reasons-list h3 {
   font-size: 21px;
@@ -203,6 +214,14 @@ a {
   color:#94b9d2;
   background-color: #5496bd;
 }
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 33%;
+  align-items: center;
+  min-height: 120px;
+  background-color: white;
+}
 .main-footer b {
   font-size: 21px;
   line-height: 26px;
@@ -210,11 +229,29 @@ a {
   color: #000000;
 }
 .footer-sosial ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 150px;
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
-.sosial-button a {
-  color:#ffffff;
+.sosial-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 48px;
   background-color: #81b3d2;
+}
+.footer-copyright p {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer-copyright {
+  text-align: center;
 }
 .benefits {
   color: #ffffff;
