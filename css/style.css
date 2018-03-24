@@ -69,22 +69,41 @@ a {
 }
 .welcome-title {
   position: absolute;
-
+  top:120px;
+  right: 720px;
+}
+.town-title b {
+  position: absolute;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  top: 625px;
+  right: 730px;
+  background-color: white;
+}
+.town-title span {
+  position: absolute;
+  line-height: 26px;
+  top:700px;
+  right: 700px;
+  background-color: white;
+}
+.town-title p {
+  position: absolute;
+  top:120px;
+  right: 720px;
 }
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
 }
-.container b {
-  font-size: 21px;
-  line-height: 26px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #000000;
-}
 .reasons-list {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 .town-reasons-list {
   color: #000000;
