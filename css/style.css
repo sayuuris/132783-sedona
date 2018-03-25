@@ -74,20 +74,21 @@ img {
   display: block;
   background-color: white;
   width: 1200px;
-  min-height: 215px;
   text-align: center;
-  position: relative;
+  padding-top: 65px;
+
 }
 .town-title b {
-
+  display: block;
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
-  text-align: center;
+  margin-bottom: 40px;
 }
 .town-title span {
-
+  display: block;
   line-height: 26px;
+  padding-bottom: 59px;
 }
 .mountains {
   position: absolute;
