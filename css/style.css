@@ -14,6 +14,9 @@ body {
 a {
   text-decoration: none;
 }
+img {
+  max-width: 100%;
+}
 .main-navigation {
   line-height: 26px;
   font-weight: 700;
@@ -101,6 +104,8 @@ a {
   padding: 0 40px;
 }
 .reasons-list {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -123,10 +128,6 @@ a {
 .reasons-item-img {
   background-color: #81b3d2;
   color: #ffffff;
-}
-.reasons-list {
-  display: flex;
-  flex-direction: column;
 }
 .reasons-list h3 {
   font-size: 21px;
