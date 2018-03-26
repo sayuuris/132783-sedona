@@ -107,8 +107,14 @@ img {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  text-align: center;
 }
-
+.test {
+  display: flex;
+}
+.test {
+  display: flex;
+}
 .town-reasons-list {
   display: flex;
   color: #000000;
@@ -134,8 +140,26 @@ img {
 .reasons-item {
   flex: 0 1 33%;
   box-sizing: border-box;
+  padding-top: 50px; 
+  padding-bottom: 64px;
   }
-
+.reasons-item  h3 {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom:30px; 
+}
+.reasons-item  p {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+.reasons-item  span {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom:30px;
+}
 .reasons-list h3 {
   font-size: 21px;
 }
