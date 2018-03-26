@@ -73,10 +73,9 @@ img {
 .town-title {
   display: block;
   background-color: white;
-  width: 1200px;
   text-align: center;
   padding-top: 65px;
-
+  padding-bottom: 59px;
 }
 .town-title b {
   display: block;
@@ -88,7 +87,7 @@ img {
 .town-title span {
   display: block;
   line-height: 26px;
-  padding-bottom: 59px;
+
 }
 .mountains {
   position: absolute;
@@ -107,7 +106,9 @@ img {
   list-style: none;
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
+
 .town-reasons-list {
   display: flex;
   color: #000000;
@@ -122,30 +123,37 @@ img {
   width: 400px;
   text-align: center;
   margin-top: 165px;
+  box-sizing: border-box;
 }
 .reasons-item-img {
+  flex: 1 0 100%;
   background-color: #81b3d2;
   color: #ffffff;
+  box-sizing: border-box;
 }
+.reasons-item {
+  flex: 0 1 33%;
+  box-sizing: border-box;
+  }
+
 .reasons-list h3 {
   font-size: 21px;
 }
 .hotels-search-title {
   display: block;
   text-align: center;
-  width: 1200px;
-  min-height: 291px;
   background-color: white;
+  padding-top: 58px;
+  padding-bottom: 140px;
 }
 .hotels-search-title b {
-  margin: 0px;
-  padding: 0px;
+  display: block;
   font-size: 30px;
   line-height: 36px;
+  margin-bottom: 38px;
 }
 .hotels-search-title p {
-  margin: 0px;
-  padding: 0px;
+  display: block;
   line-height: 24px;
 }
 .button-form {
