@@ -112,7 +112,7 @@ img {
 .test {
   display: flex;
 }
-.test {
+.test-2 {
   display: flex;
 }
 .town-reasons-list {
@@ -140,14 +140,14 @@ img {
 .reasons-item {
   flex: 0 1 33%;
   box-sizing: border-box;
-  padding-top: 50px; 
+  padding-top: 50px;
   padding-bottom: 64px;
   }
 .reasons-item  h3 {
   display: block;
   margin: 0px;
   padding: 0px;
-  margin-bottom:30px; 
+  margin-bottom:30px;
 }
 .reasons-item  p {
   display: block;
@@ -197,15 +197,35 @@ img {
   color:#928a85;
   background-color: #503e33;
 }
+.booking {
+  display: flex;
+  flex-wrap: wrap;
+  width: 469px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  position: absolute;
+  justify-content: space-between;
+  padding: 55px;
+}
 .booking p {
   line-height: 26px;
   font-weight: 700;
+}
+.checkin-date {
+  margin: 0px;
+  padding-bottom: 30px;
+  flex: 1 0 100%;
 }
 .checkin-date input {
   color:#000000;
   background-color: #f2f2f2;
   font-weight: 700;
   text-transform: uppercase;
+  padding: 13px;
+  width: 282px;
+  margin-left: 20px;
+  border: 0px;
 }
 .checkin-date input:hover {
   background-color: #ebebeb;
@@ -213,11 +233,20 @@ img {
 .checkin-date input:focus {
   background-color: #ffffff;
 }
+.checkout-date {
+  margin: 0px;
+  padding-bottom: 30px;
+  flex: 1 0 100%;
+}
 .checkout-date input {
   color:#000000;
   background-color: #f2f2f2;
   font-weight: 700;
   text-transform: uppercase;
+  padding: 13px;
+  width: 282px;
+  margin-left: 20px;
+  border: 0px;
 }
 .checkout-date input:hover {
   background-color: #ebebeb;
@@ -225,17 +254,40 @@ img {
 .checkout-date input:focus {
   background-color: #ffffff;
 }
+.booking-calendar {
+  width: 38px;
+  height: 38px;
+  border: 0px;
+  background-color: #f2f2f2;
+  margin: 0px;
+  padding: 0px;
+}
+.booking-adults {
+  margin: 0px;
+  padding-bottom: 55px;
+}
 .booking-adults input {
   color:#000000;
   background-color: #f2f2f2;
   font-weight: 700;
   text-transform: uppercase;
+  width: 25px;
+  padding: 13px;
+  border: 0px;
+}
+.booking-kids {
+  margin: 0px;
+  padding-bottom: 55px;
+
 }
 .booking-kids input {
   color:#000000;
   background-color: #f2f2f2;
   font-weight: 700;
   text-transform: uppercase;
+  width: 25px;
+  padding: 13px;
+  border: 0px;
 }
 .booking-button {
   font-size: 21px;
@@ -246,6 +298,10 @@ img {
   text-transform: uppercase;
   background-color: #81b3d2;
   border: none;
+  flex: 1 0 100%;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .booking-button:hover {
   background-color: #669ec0;
@@ -253,6 +309,14 @@ img {
 .booking-button:active {
   color:#94b9d2;
   background-color: #5496bd;
+}
+.booking-number {
+  margin: 0px;
+  padding: 0px;
+  width: 38px;
+  height: 38px;
+  border: 0px;
+  background-color: #f2f2f2;
 }
 .main-footer {
   display: flex;

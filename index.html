@@ -39,10 +39,12 @@
             <ul class="reasons-list">
               <li class="reasons-item-img">
                 <div class="test">
-                  <h3>Настоящий городок</h3>
-                  <span class="numerical">–№1–</span>
-                  <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
-                  <img src="img/real-town.jpg" width="800" height="256" alt="Настоящий городок">
+                  <div>
+                    <h3>Настоящий городок</h3>
+                    <span class="numerical">–№1–</span>
+                    <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
+                    </div>
+                    <img src="img/real-town.jpg" width="800" height="256" alt="Настоящий городок">
                 </div>
                 <ul class="town-reasons-list">
                   <li class="town-reasons-item">
@@ -62,9 +64,11 @@
               <li class="reasons-item-img">
                 <div class="test-2">
                   <img src="img/bridge.jpg" width="800" height="256" alt="Мост дьявола">
-                  <h3>Там есть мост дьявола</h3>
-                  <span class="numerical">— №2 —</span>
-                  <p>Да,по нему можно пройти! если конечно вы осмелитесь</p>
+                  <div>
+                    <h3>Там есть мост дьявола</h3>
+                    <span class="numerical">— №2 —</span>
+                    <p>Да,по нему можно пройти! если конечно вы осмелитесь</p>
+                  </div>
                 </div>
               </li>
               <li class="reasons-item">
@@ -95,26 +99,26 @@
             <button class="button-form" type="button">Поиск гостиницы в Седоне</button>
             <form class="booking" method="post" action="https://echo.htmlacademy.ru">
               <p class="checkin-date">
-                <label for="checkin-date">Дата заезда</label>
+                <label for="checkin-date">Дата заезда:</label>
                 <input type="text" name="booking" id="checkin-date">
                 <button class="booking-calendar" type="button"><span class="visually-hidden">Открыть календарь</span></button>
               </p>
               <p class="checkout-date">
-                <label for="checkout-date">Дата выезда</label>
+                <label for="checkout-date">Дата выезда:</label>
                 <input type="text" name="booking" id="checkout-date">
                 <button class="booking-calendar" type="button"><span class="visually-hidden">Открыть календарь</span></button>
               </P>
               <p class="booking-adults">
-                <label for="booking-adults">Взрослые</label>
-                <button class="visually-hidden booking-number" type="button">Уменьшить</button>
+                <label for="booking-adults">Взрослые:</label>
+                <button class="booking-number" type="button"><span class="visually-hidden">Уменьшить</span></button>
                 <input type="text" name="booking" id="booking-adults" pattern="[0-9]{2}">
-                <button class="visually-hidden booking-number" type="button">Увеличить</button>
+                <button class="booking-number" type="button"><span class="visually-hidden">Увеличить</span></button>
               </p>
               <p class="booking-kids">
-                <label for="booking-kids">Дети</label>
-                <button class="visually-hidden booking-number" type="button">Уменьшить</button>
+                <label for="booking-kids">Дети:</label>
+                <button class="booking-number" type="button"><span class="visually-hidden">Уменьшить</span></button>
                 <input type="text" name="booking" id="booking-kids" pattern="[0-9]{2}">
-                <button class="visually-hidden booking-number" type="button">Увеличить</button>
+                <button class="booking-number" type="button"><span class="visually-hidden">Увеличить</span></button>
               </p>
               <button class="booking-button"  type="submit">Найти</button>
             </form>
