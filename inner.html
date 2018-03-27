@@ -27,7 +27,8 @@
         <section class="hotel-filters">
           <h2 class="visually-hidden">Сортировка:</h2>
           <form class="benefits" method="get" action="https://echo.htmlacademy.ru">
-            <fieldset>
+
+            <fieldset class="infrastructure">
               <legend>Инфрастуктура:</legend>
               <ul class="benefits-list">
                 <li class="benefits-item">
@@ -44,24 +45,24 @@
                 </li>
               </ul>
             </fieldset>
-            <fieldset>
+            <fieldset class="type-housing">
               <legend>Тип жилья:</legend>
-              <ul class="type of accommodation-list">
-                <li class="type of accommodation-item">
+              <ul class="type-of-accommodation-list">
+                <li class="type-of-accommodation-item">
                   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Hotel" id="filter-hotel" checked>
                   <label for="filter-hotel">Гостиница</label>
                 </li>
-                <li class="type of accommodation-item">
+                <li class="type-of-accommodation-item">
                   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Motel" id="filter-motel" checked>
                   <label for="filter-motel">Мотель</label>
                 </li>
-                <li class="type of accommodation-item">
+                <li class="type-of-accommodation-item">
                   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Apartment" id="filter-apartment" checked>
                   <label for="filter-apartment">Апартаменты</label>
                 </li>
               </ul>
             </fieldset>
-            <fieldset>
+            <fieldset class="day-price">
               <legend>Стоимость в сутки</legend>
               <label for="price-from">От</label>
               <input type="text" name="filter-price" id="price-from">

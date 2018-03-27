@@ -453,6 +453,21 @@ img {
   font-size:16px;
   font-weight: 700;
 }
+.infrastructure {
+  border: 0px;
+box-sizing: border-box;
+}
+.type-housing {
+  border: 0px;
+  box-sizing: border-box;
+}
+.type-of-accommodation-list {
+  list-style: none;
+  box-sizing: border-box;
+}
+.day-price {
+  border: 0px;
+}
 .button-filter {
   font-size: 14px;
   line-height: 21px;
