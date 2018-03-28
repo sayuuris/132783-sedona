@@ -455,6 +455,8 @@ img {
 }
 .filter-range {
   width: 330px;
+  margin-top: 27px;
+  margin-right: 58px;
 
 
   color: #ffffff;
@@ -611,14 +613,14 @@ img {
   box-sizing: border-box;
 }
 .infrastructure-block {
-  margin-top: 23px;
-  margin-left: 73px;
+  margin-top: 25px;
+  margin-left: 75px;
 }
 .infrastructure legend {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 .benefits-item {
-  padding-bottom: 36px;
+  padding-bottom: 25px;
   padding-left: 36px;
 }
 .type-housing {
@@ -628,7 +630,8 @@ img {
   padding: 0px;
 }
 .type-housing-block {
-  margin-top: 23px;
+  margin-top: 25px;
+  margin-right: 215px;
 }
 
 .type-of-accommodation-list {
@@ -641,11 +644,11 @@ img {
   padding: 0px;
 }
 .type-of-accommodation-item {
-  padding-bottom: 36px;
+  padding-bottom: 25px;
   padding-left: 36px;
 }
 .type-housing legend {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 .day-price {
   border: 0px;
