@@ -623,6 +623,41 @@ img {
   padding-bottom: 25px;
   padding-left: 36px;
 }
+.benefits-item label {
+
+  position: relative;
+
+  display: block;
+
+  cursor: pointer;
+  user-select: none;
+}
+.type-of-accommodation-item label {
+  position: relative;
+
+  display: block;
+
+  cursor: pointer;
+  user-select: none;
+}
+.filter-input-checkbox + label::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left:-35px;
+  width: 25px;
+  height: 25px;
+  background: url("../img/checkbox-off.svg"); no-repeat;
+}
+.filter-input-checkbox:checked + label::after {
+  content: "";
+  top: 0px;
+  left:-35px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: url("../img/checkbox-on.svg"); no-repeat;
+}
 .type-housing {
   border: 0px;
   box-sizing: border-box;
