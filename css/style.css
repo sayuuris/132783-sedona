@@ -711,27 +711,30 @@ img {
   background-color: #ffffff;
 }
 .sorting {
-  display: flex;
-  align-items: center;
+  display: inline-block;
 }
 .sorting b {
+  display: inline-block;
   font-size: 21px;
   line-height: 26px;
   color: #000000;
   font-weight: 700;
 }
 .sorting h3 {
+  display: inline-block;
   font-size: 12px;
   line-height: 18px;
   color:#000000;
 }
 .sorting-list {
+  display: inline-block;
   list-style: none;
   margin: 0px;
   padding: 0px;
-  display: flex;
+
 }
 .sorting-list a {
+  display: inline-block;
   font-size: 12px;
   line-height: 18px;
   color: #d4d4d4;
@@ -756,7 +759,7 @@ img {
 }
 /*отели*/
 .hotels-container {
-  margin: 25px 75px;
+  padding: 25px 75px;
 
 }
 .hotels-booking-list {
