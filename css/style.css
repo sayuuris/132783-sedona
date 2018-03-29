@@ -1,3 +1,9 @@
+html { 
+box-sizing: border-box; 
+} 
+*, *::after, *::before { 
+box-sizing: inherit; 
+}
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +23,7 @@ a {
 img {
   max-width: 100%;
 }
+
 .main-navigation {
   line-height: 26px;
   font-weight: 700;
@@ -451,12 +458,12 @@ img {
   display: flex;
   width: 1200px;
   justify-content: space-between;
+  padding: 25px 75px;
 
 }
 .filter-range {
   width: 330px;
-  margin-top: 27px;
-  margin-right: 58px;
+
 
 
   color: #ffffff;
@@ -613,14 +620,13 @@ img {
   box-sizing: border-box;
 }
 .infrastructure-block {
-  margin-top: 25px;
-  margin-left: 75px;
+
 }
 .infrastructure legend {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 .benefits-item {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
   padding-left: 36px;
 }
 .benefits-item label {
@@ -679,11 +685,11 @@ img {
   padding: 0px;
 }
 .type-of-accommodation-item {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
   padding-left: 36px;
 }
 .type-housing legend {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 .day-price {
   border: 0px;
