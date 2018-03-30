@@ -15,7 +15,7 @@ body {
   color: #333333;
   text-transform: uppercase;
 
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -25,6 +25,7 @@ img {
 }
 
 .main-navigation {
+  position: relative;
   line-height: 26px;
   font-weight: 700;
   text-transform: uppercase;
@@ -35,6 +36,7 @@ img {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 1;
 }
 .site-navigation {
   display: flex;
@@ -82,28 +84,44 @@ img {
   background-color: white;
   text-align: center;
   padding-top: 65px;
-  padding-bottom: 59px;
+  padding-bottom: 50px;
 }
 .town-title b {
   display: block;
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 .town-title span {
   display: block;
   line-height: 26px;
 
 }
+.index-image-container {
+  position: relative;
+  display: block;
+  object-fit: cover;
+}
+.index-image-container::after {
+  content: "";
+  left:0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  height: 58px;
+  background: url("../img/lines.png") center no-repeat;
+}
+
 .mountains {
   position: absolute;
-  top: 200px;
+  top: 60px;
   left: 50%;
   transform: translateX(-50%);
 }
 .container {
-  width: 1200px;
+  width: 1280px;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -116,8 +134,15 @@ img {
   box-sizing: border-box;
   text-align: center;
 }
-.test {
+.town-container {
   display: flex;
+}
+.town-container-info {
+  flex:0 0 400px;
+  padding: 47px 60px;
+}
+.town-container img {
+  flex:0 0 800px;
 }
 .test-2 {
   display: flex;
@@ -133,10 +158,21 @@ img {
   padding: 0px;
 }
 .town-reasons-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 70px;
   width: 400px;
-  text-align: center;
-  margin-top: 165px;
-  box-sizing: border-box;
+}
+
+.town-reasons-item--housing::before {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 72px;
+  background: url("../img/icon-1.svg");
+  margin: 0 auto;
 }
 .reasons-item-img {
   flex: 1 0 100%;
@@ -154,6 +190,7 @@ img {
   display: block;
   margin: 0px;
   padding: 0px;
+
   margin-bottom:30px;
 }
 .reasons-item  p {
@@ -169,7 +206,17 @@ img {
 }
 .reasons-list h3 {
   font-size: 21px;
+  margin: 0px;
+  margin-bottom: 25px;
 }
+.reasons-list p {
+  margin: 0px;
+}
+.reasons-list span {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .hotels-search-title {
   display: block;
   text-align: center;
