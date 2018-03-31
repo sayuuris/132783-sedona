@@ -83,7 +83,7 @@ img {
   display: block;
   background-color: white;
   text-align: center;
-  padding-top: 62px;
+  padding-top: 65px;
   padding-bottom: 50px;
 }
 .town-title b {
@@ -139,7 +139,7 @@ img {
 }
 .town-container-info {
   flex:0 0 400px;
-  padding: 47px 60px;
+  padding: 50px 60px;
 }
 .town-container img {
   flex:0 0 800px;
@@ -149,7 +149,7 @@ img {
 }
 .bridge-container-info {
   flex:0 0 400px;
-  padding: 47px 60px;
+  padding: 50px 50px;
 }
 .bridge-container img {
   flex:0 0 800px;
@@ -209,8 +209,7 @@ img {
 .reasons-item {
   flex: 0 0 400px;
   box-sizing: border-box;
-  padding-top: 50px;
-  padding-bottom: 64px;
+  padding: 55px 60px;
   background-color: #eeeeee;
   }
 .reasons-item  h3 {
@@ -245,22 +244,28 @@ img {
 }
 .interested {
   display: block;
-  margin: 40px 0px;
+  margin-top: 55px;
+  margin-bottom: 25px;
   text-align: center;
   font-size: 30px;
   line-height: 36px;
 }
 .interested-title {
+  display: block;
   text-align: center;
-  margin-bottom: 50px;
   line-height: 24px;
   margin: 0px;
   padding: 0px;
+  padding-bottom: 45px;
+}
+.form-plus-button {
+  width: 568px;
+  margin: 0 auto;
+  position: relative;
 }
 .button-form {
   font-size: 21px;
   line-height: 26px;
-  text-align: center;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
@@ -282,9 +287,8 @@ img {
 .booking {
   display: flex;
   flex-wrap: wrap;
-  width: 458px;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
+  left: 0px;
   background-color: white;
   position: absolute;
   justify-content: space-between;
@@ -298,7 +302,7 @@ img {
   display: flex;
   margin: 0px;
   margin-bottom: 30px;
-  flex: 1 0 100%;
+  flex: 0 0 100%;
   align-items: center;
 }
 .checkin-date input {
@@ -307,7 +311,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   padding: 11px;
-  width: 282px;
+  flex: 1 0 100px;
   margin-left: 20px;
   border: 0px;
 }
@@ -321,7 +325,7 @@ img {
   display: flex;
   margin: 0px;
   margin-bottom: 30px;
-  flex: 1 0 100%;
+  flex: 0 0 100%;
   align-items: center;
 }
 .checkout-date input {
@@ -330,7 +334,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   padding: 11px;
-  width: 282px;
+  flex: 1 0 100px;
   margin-left: 20px;
   border: 0px;
 }
@@ -368,7 +372,7 @@ img {
   background-color: #f2f2f2;
   font-weight: 700;
   text-transform: uppercase;
-  width: 15px;
+  width: 40px;
   padding: 11px;
   border: 0px;
 }
@@ -383,7 +387,7 @@ img {
   background-color: #f2f2f2;
   font-weight: 700;
   text-transform: uppercase;
-  width: 15px;
+  width: 40px;
   padding: 11px;
   border: 0px;
 }
@@ -439,7 +443,7 @@ img {
   height: 38px;
   border: 0px;
   background-color: #f2f2f2;
-  margin-left: 27px;
+  margin-left: 25px;
 }
 .kids-plus-button {
   margin: 0px;
@@ -473,6 +477,12 @@ img {
   align-items: center;
   min-height: 120px;
   background-color: white;
+}
+.main-footer-logo:hover path {
+  fill:#81b3d2;
+}
+.main-footer-logo:active path {
+  fill:#bdbbbc;
 }
 .main-footer b {
   font-size: 21px;
