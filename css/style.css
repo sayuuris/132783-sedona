@@ -83,7 +83,7 @@ img {
   display: block;
   background-color: white;
   text-align: center;
-  padding-top: 65px;
+  padding-top: 62px;
   padding-bottom: 50px;
 }
 .town-title b {
@@ -91,7 +91,7 @@ img {
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 27px;
 }
 .town-title span {
   display: block;
@@ -110,7 +110,7 @@ img {
   bottom: 0;
   position: absolute;
   display: block;
-  height: 58px;
+  height: 55px;
   background: url("../img/lines.png") center no-repeat;
 }
 
@@ -144,8 +144,15 @@ img {
 .town-container img {
   flex:0 0 800px;
 }
-.test-2 {
+.bridge-container {
   display: flex;
+}
+.bridge-container-info {
+  flex:0 0 400px;
+  padding: 47px 60px;
+}
+.bridge-container img {
+  flex:0 0 800px;
 }
 .town-reasons-list {
   display: flex;
@@ -162,7 +169,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 60px 70px;
+  padding: 60px 55px;
   width: 400px;
 }
 
@@ -171,8 +178,27 @@ img {
   display: block;
   width: 75px;
   height: 72px;
-  background: url("../img/icon-1.svg");
+  background: url("../img/icon-1.svg") no-repeat;
   margin: 0 auto;
+  margin-bottom: 20px;
+}
+.town-reasons-item--food::before {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 72px;
+  background: url("../img/icon-3.svg") no-repeat;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.town-reasons-item--souvenir::before {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 72px;
+  background: url("../img/icon-2.svg") no-repeat;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 .reasons-item-img {
   flex: 1 0 100%;
@@ -181,10 +207,11 @@ img {
   box-sizing: border-box;
 }
 .reasons-item {
-  flex: 0 1 33%;
+  flex: 0 0 400px;
   box-sizing: border-box;
   padding-top: 50px;
   padding-bottom: 64px;
+  background-color: #eeeeee;
   }
 .reasons-item  h3 {
   display: block;
@@ -216,26 +243,19 @@ img {
   display: block;
   margin-bottom: 20px;
 }
-
-.hotels-search-title {
+.interested {
   display: block;
+  margin: 40px 0px;
   text-align: center;
-  background-color: white;
-  padding-top: 58px;
-
-}
-.hotels-search-title b {
-  display: block;
   font-size: 30px;
   line-height: 36px;
-  margin-bottom: 38px;
 }
-.hotels-search-title p {
-  display: block;
+.interested-title {
+  text-align: center;
+  margin-bottom: 50px;
   line-height: 24px;
   margin: 0px;
   padding: 0px;
-  margin-bottom: 54px;
 }
 .button-form {
   font-size: 21px;
