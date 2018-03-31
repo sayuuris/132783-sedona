@@ -533,14 +533,14 @@ img {
 }
 .sorting-form-container {
   display: flex;
-  width: 1200px;
+  width: 100%;
   justify-content: space-between;
-  padding: 25px 75px;
+  padding: 27px 70px 5px 70px;
 
 }
 .filter-range {
   width: 330px;
-
+  margin-left: auto;
 
 
   color: #ffffff;
@@ -592,8 +592,7 @@ img {
 
 .price-controls .min-price,
 .price-controls .max-price {
-  width: 90px;
-  padding-left: 65px;
+  padding-left: 75px;
 }
 
 .price-controls input {
@@ -697,14 +696,15 @@ img {
   box-sizing: border-box;
 }
 .infrastructure-block {
+  flex: 0 0 256px;
 
 }
 .infrastructure legend {
-  margin-bottom: 25px;
+  margin-bottom: 22px;
 }
 .benefits-item {
   margin-bottom: 25px;
-  padding-left: 36px;
+  padding-left: 40px;
 }
 .benefits-item label {
 
@@ -748,7 +748,7 @@ img {
   padding: 0px;
 }
 .type-housing-block {
-  margin-right: 215px;
+ flex: 0 0 256px;
 }
 
 .type-of-accommodation-list {
@@ -762,10 +762,10 @@ img {
 }
 .type-of-accommodation-item {
   margin-bottom: 25px;
-  padding-left: 36px;
+  padding-left: 40px;
 }
 .type-housing legend {
-  margin-bottom: 25px;
+  margin-bottom: 22px;
 }
 .day-price {
   border: 0px;
@@ -788,7 +788,9 @@ img {
   background-color: #ffffff;
 }
 .sorting {
-  display: inline-block;
+  display: flex;
+  padding: 20px 72px;
+  align-items: center;
 }
 .sorting b {
   display: inline-block;
@@ -796,19 +798,25 @@ img {
   line-height: 26px;
   color: #000000;
   font-weight: 700;
+  flex: 0 0 160px;
+  padding-right: 20px;
 }
 .sorting h3 {
   display: inline-block;
   font-size: 12px;
   line-height: 18px;
   color:#000000;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 20px;
 }
 .sorting-list {
-  display: inline-block;
+  display: flex;
   list-style: none;
   margin: 0px;
   padding: 0px;
-
+  flex: 0 0 275px;
+  justify-content: space-around;
 }
 .sorting-list a {
   display: inline-block;
@@ -825,18 +833,25 @@ img {
 .sorting-list a:link {
   color: #9fc4dc;
 }
-.sorting-arrow {
+.sorting-arrows {
   list-style: none;
+  display: flex;
 }
-.sorting-arrow a {
+.sorting-arrows a {
   color: #d4d4d4;
 }
-.sorting-arrow a:active {
+.sorting-arrows a:active {
   color: #9fc4dc;
+}
+.arrows {
+  margin-left: auto;
+}
+.arrow-up {
+  margin-right: 10px;
 }
 /*отели*/
 .hotels-container {
-  padding: 25px 75px;
+  padding: 22px 72px 0px 72px;
 
 }
 .hotels-booking-list {
@@ -845,16 +860,16 @@ img {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  margin-bottom: 60px;
 
 }
 
 .hotels-booking h3 {
-  font-size: 21px;
+   font-size: 21px;
   line-height: 26px;
   color: #000000;
   font-weight: 700;
   margin: 0px;
+  margin-bottom: 9px;
 
 }
 .rating {
@@ -864,13 +879,14 @@ img {
 .more-info {
   display: inline-block;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 27px;
   color: #ffffff;
   background-color: #81b3d2;
   font-weight: 700;
   text-transform: uppercase;
   width: 110px;
   text-align: center;
+
 
 }
 .more-info:hover {
@@ -883,13 +899,14 @@ img {
 .reservation {
   display: inline-block;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 27px;
   color: #ffffff;
   background-color: #766357;
   font-weight: 700;
   text-transform: uppercase;
   width: 140px;
   text-align: center;
+
 }
 .reservation:hover {
   background-color: #604e43;
@@ -916,11 +933,15 @@ img {
 }
 .div1 {
   width:135px;
-
   margin-right: 30px;
 }
+.div1  p {
+  margin: 0px;
+  padding: 0px;
+}
 .div2 {
-  width: 256px;
+  flex: 1 0 100px;
+  padding-right: 40px;
 
 }
 .div3 {
@@ -931,21 +952,22 @@ img {
 }
 .hotels-booking-item {
   display: flex;
+  margin-bottom: 52px;
 }
 .hotels-discription {
-  display: inline-block;
+  display: flex;
   width: 258px;
-  margin-top: 17px;
-  margin-bottom: 17px;
+}
+.hotels-booking-item:last-child {
+  margin-bottom: 28px;
 }
 .hotels-discription p {
-  display: inline-block;
+  flex: 0 0 110px;
   margin: 0px;
-  padding:0px;
-  max-width:50%;
+  padding: 0px;
+  max-width: 50%;
+  margin-bottom: 17px;
 }
 .hotels-discription span {
-  display: inline-block;
-  max-width:50%;
+ margin-left: 8px;
 }
-
