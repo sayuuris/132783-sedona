@@ -585,6 +585,7 @@ main {
 
   border: 2px solid #ffffff;
   border-radius: 2px;
+  display: flex;
 }
 
 .price-controls::after {
@@ -601,18 +602,21 @@ main {
 }
 
 .price-controls label {
-  display: inline-block;
+  flex: 0 0 50%;
 
   font-size: 14px;
-  line-height: 38px;
+  line-height: 30px;
   vertical-align: top;
 
   cursor: pointer;
 }
 
-.price-controls .min-price,
-.price-controls .max-price {
-  padding-left: 75px;
+.min-price {
+  padding-left: 65px;
+}
+
+.max-price {
+  padding-left: 54px;
 }
 
 .price-controls input {
@@ -661,7 +665,7 @@ main {
 }
 
 .range-toggle-min {
-  left: 0;
+  left: -3px;
 }
 
 .range-toggle-max {
@@ -878,10 +882,6 @@ main {
   margin-right: 10px;
 }
 /*отели*/
-.hotels-container {
-  padding: 22px 72px 0px 72px;
-
-}
 .hotels-booking-list {
   display: flex;
   flex-direction: column;
@@ -981,8 +981,8 @@ main {
 }
 .hotels-booking-item {
   display: flex;
-  margin-bottom: 52px;
   border-top: 1px solid #e5e5e5;
+  padding: 30px 72px;
 }
 .hotels-discription {
   display: flex;
