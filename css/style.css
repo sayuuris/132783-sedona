@@ -648,19 +648,16 @@ main {
 .range-toggle {
   position: absolute;
   top: -9px;
-
-  width: 4px;
-  height: 4px;
-
-  background: #ababab;
-  border: 8px solid #ffffff;
-  border-radius: 50%;
-  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  width: 22px;
+  height: 22px;
+  background: url(../img/filter-button.svg) center no-repeat;
   cursor: pointer;
+  background-size: contain;
+
 }
 
 .range-toggle:hover {
-  background: #1c4f80;
+  transform: scale(1.2);
 }
 
 .range-toggle-min {
