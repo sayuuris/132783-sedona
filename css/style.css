@@ -25,7 +25,6 @@ img {
 }
 main {
   background-color: #ffffff;
-  box-shadow: 0 0 15px rgba(0, 1, 0, 1);
 }
 .main-navigation {
   position: relative;
@@ -34,7 +33,6 @@ main {
   text-transform: uppercase;
   color: #000000;
   background-color: #ffffff;
-  box-shadow: 0 0 15px rgba(0, 1, 0, 1);
 }
 .main-header-logo {
   position: absolute;
@@ -125,9 +123,9 @@ main {
   transform: translateX(-50%);
 }
 .container {
-  width: 1280px;
+  width: 1200px;
   margin: 0 auto;
-  padding: 0 40px;
+  box-shadow: 0 0 15px rgba(0, 1, 0, 0.2);
 }
 .reasons-list {
   display: flex;
@@ -481,7 +479,6 @@ main {
   align-items: center;
   min-height: 120px;
   background-color: #ffffff;
-  box-shadow: 0 0 15px rgba(0, 1, 0, 1);
 }
 .main-footer-logo:hover path {
   fill:#81b3d2;
