@@ -354,6 +354,7 @@ main {
   margin: 0px;
   padding: 0px;
 }
+
 .booking-calendar path {
   fill: #a9a9a9;
 }
@@ -399,11 +400,17 @@ main {
 .adults-minus-button:active svg line {
   stroke: #8fbbd7;
 }
+.adults-minus-button svg {
+  vertical-align: middle;
+}
 .adults-plus-button:hover svg line {
   stroke: #000000;
 }
 .adults-plus-button:active svg line {
   stroke: #8fbbd7;
+}
+.adults-plus-button svg {
+  vertical-align: middle;
 }
 .kids-minus-button:hover svg line {
   stroke: #000000;
@@ -411,11 +418,17 @@ main {
 .kids-minus-button:active svg line {
   stroke: #8fbbd7;
 }
+.kids-minus-button svg {
+  vertical-align: middle;
+}
 .kids-plus-button:hover svg line {
   stroke: #000000;
 }
 .kids-plus-button:active svg line {
   stroke: #8fbbd7;
+}
+.kids-plus-button svg {
+  vertical-align: middle;
 }
 .booking-button {
   font-size: 21px;
@@ -479,6 +492,7 @@ main {
   align-items: center;
   min-height: 120px;
   background-color: #ffffff;
+  padding-bottom: 20px
 }
 .main-footer-logo:hover path {
   fill:#81b3d2;
@@ -546,7 +560,7 @@ main {
 
 }
 .filter-range {
-  width: 330px;
+  width: 320px;
   margin-left: auto;
 
 
@@ -565,7 +579,6 @@ main {
 .price-controls {
   position: relative;
 
-  height: 36px;
   margin-bottom: 20px;
 
   font-size: 0;
@@ -657,7 +670,6 @@ main {
 .range-toggle-max {
   left: 80%;
 }
-
 .btn-transparent {
   display: block;
   margin: 0 auto;
@@ -973,12 +985,14 @@ main {
 .hotels-booking-item {
   display: flex;
   margin-bottom: 52px;
+  border-top: 1px solid #e5e5e5;
 }
 .hotels-discription {
   display: flex;
   width: 258px;
 }
 .hotels-booking-item:last-child {
+  border-bottom: 1px solid #e5e5e5;
   margin-bottom: 28px;
 }
 .hotels-discription p {
