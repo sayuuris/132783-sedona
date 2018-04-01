@@ -15,7 +15,7 @@ body {
   color: #333333;
   text-transform: uppercase;
 
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 a {
   text-decoration: none;
@@ -23,7 +23,10 @@ a {
 img {
   max-width: 100%;
 }
-
+main {
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 1, 0, 1);
+}
 .main-navigation {
   position: relative;
   line-height: 26px;
@@ -520,10 +523,14 @@ img {
 .footer-copyright p {
   margin: 0px;
   padding: 0px;
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 .footer-copyright {
   text-align: center;
+}
+.footer-copyright span {
+  padding-right: 10px;
 }
 .benefits {
 
@@ -886,8 +893,11 @@ img {
 
 }
 .rating {
-  background-color: #f2f2f2
-
+  background-color: #f2f2f2;
+  display: block;
+  width: 110px;
+  text-align: center;
+  padding: 3px;
 }
 .more-info {
   display: inline-block;
@@ -959,9 +969,7 @@ img {
 }
 .hotels-rating {
   margin-left:auto;
-  width: 113px;
-  border: 1px solid;
-  margin-left:auto;
+  width: 110px;
 }
 .hotels-booking-item {
   display: flex;
@@ -995,4 +1003,15 @@ img {
 }
 .stars {
   background-image: url("../img/star.svg");
+  height: 18px;
+  margin-bottom: 50px;
+}
+.stars.stars-4 {
+  width: 73px;
+}
+.stars.stars-3 {
+  width: 53px;
+}
+.stars.stars-2 {
+  width: 38px;
 }
