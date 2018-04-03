@@ -91,6 +91,9 @@ main {
   text-align: right;
   margin-right: 72px;
 }
+.site-navigation-item.current a {
+  color: #766357;
+}
 .town-title {
   display: block;
   background-color: white;
@@ -238,7 +241,7 @@ main {
 .town-reasons-item--souvenir::before {
   content: "";
   display: block;
-  width: 65px;
+  width: 75px;
   height: 72px;
   background: url("../img/icon-2.svg") no-repeat;
   margin: 0 auto;
@@ -348,11 +351,14 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 55px;
+  display: none;
+  z-index: 3;
 }
 .booking p {
   line-height: 26px;
   font-weight: 700;
 }
+
 .checkin-date {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -365,6 +371,14 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.form-show {
+  display: flex;
+  animation: bounce 1.6s;
+}
+.form-error {
+  animation: shake 0.6s;
 }
 .checkin-date input {
   color:#000000;
@@ -564,6 +578,53 @@ main {
   border: 0px;
   background-color: #f2f2f2;
 }
+@keyframes bounce {
+  0% {
+    transform: translateY(-2000px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
+.modal-map iframe {
+  position: relative;
+  z-index: 2;
+
+  border: none;
+  background-image: url("../img/map.png");
+}
+
 .main-footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1030,6 +1091,13 @@ main {
 }
 .arrow-up {
   margin-right: 10px;
+}
+.arrow-down.active path {
+  fill: #9fc4dc;
+}
+
+.sorting-item.active a {
+  color: #9fc4dc ;
 }
 /*отели*/
 .hotels-booking-list {
