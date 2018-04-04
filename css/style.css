@@ -334,9 +334,6 @@ main {
   background-color: #503e33;
 }
 .booking {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
@@ -370,11 +367,15 @@ main {
 }
 
 .form-show {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  animation: bounce 1.2s;
+  -webkit-animation: bounce 1.2s;
+          animation: bounce 1.2s;
 }
 .form-error {
-  animation: shake 0.6s;
+  -webkit-animation: shake 0.6s;
+          animation: shake 0.6s;
 }
 .checkin-date input {
   color:#000000;
@@ -574,27 +575,53 @@ main {
   border: 0px;
   background-color: #f2f2f2;
 }
-@keyframes bounce {
+@-webkit-keyframes bounce {
   0% {
-    transform: translateY(-2000px);
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
   }
 
   70% {
-    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
   }
 
   90% {
-    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
 
   100% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
-@keyframes shake {
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+
+  70% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+
+  90% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@-webkit-keyframes shake {
   0%,
   100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 
   10%,
@@ -602,14 +629,40 @@ main {
   50%,
   70%,
   90% {
-    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
 
   20%,
   40%,
   60%,
   80% {
-    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+}
+@keyframes shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
 }
 
@@ -626,7 +679,8 @@ main {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-between;
+      -webkit-box-pack: justify;
+          justify-content: space-between;
   -ms-flex-preferred-size: 33%;
       flex-basis: 33%;
   -webkit-box-align: center;
@@ -839,6 +893,7 @@ main {
 .range-toggle-max {
   left: 80%;
 }
+
 .btn-transparent {
   display: block;
   margin: 0 auto;
@@ -860,6 +915,7 @@ main {
 
   background: #ffffff;
 }
+
 .benefits-list {
   list-style: none;
   display: -webkit-box;
@@ -869,13 +925,14 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
+          -webkit-box-align: start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
 
   margin: 0px;
   padding: 0px;
 }
+
 .benefits legend {
   font-size:16px;
   line-height: 26px;
@@ -969,9 +1026,9 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
+          -webkit-box-align: start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
   margin: 0px;
   padding: 0px;
 }
@@ -1058,6 +1115,9 @@ main {
 }
 .sorting-list a {
   color: #cacaca;
+}
+.sorting-list:not(.active) {
+  border-bottom: 1px dotted #81b3d2;
 }
 .sorting-arrows {
   list-style: none;

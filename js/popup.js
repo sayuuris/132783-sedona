@@ -6,9 +6,13 @@
   var kids = popup.querySelector("[name=kids]");
   var adults = popup.querySelector("[name=adults]");
 
-    button.addEventListener("click", function (evt) {
+  if (popup) {
+    popup.classList.remove("form-show");
+  }
+
+  button.addEventListener("click", function (evt) {
     evt.preventDefault();
-        if (popup.classList.contains("form-show")) {
+    if (popup.classList.contains("form-show")) {
       popup.classList.remove("form-error");
       popup.classList.remove("form-show");
 
@@ -20,7 +24,7 @@
     }
   });
 
-    window.addEventListener("keydown", function (evt) {
+  window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
       evt.preventDefault();
       if (popup.classList.contains("form-show")) {
@@ -30,7 +34,8 @@
     }
 
   });
-    popup.addEventListener("submit", function (evt) {
+
+  popup.addEventListener("submit", function (evt) {
     if (!checkin.value || !checkout.value || !kids.value || !adults.value) {
       evt.preventDefault();
       popup.classList.remove("form-error");
