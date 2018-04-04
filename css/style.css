@@ -212,7 +212,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 70px 55px;
+  padding: 60px 50px 55px;
   width: 400px;
 }
 
@@ -223,7 +223,7 @@ main {
   height: 72px;
   background: url("../img/icon-1.svg") no-repeat;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .town-reasons-item--food::before {
   content: "";
@@ -232,7 +232,7 @@ main {
   height: 72px;
   background: url("../img/icon-3.svg") no-repeat;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .town-reasons-item--souvenir::before {
   content: "";
@@ -241,7 +241,7 @@ main {
   height: 72px;
   background: url("../img/icon-2.svg") no-repeat;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .reasons-item-img {
   -webkit-box-flex: 1;
@@ -293,7 +293,7 @@ main {
 }
 .interested {
   display: block;
-  margin-top: 55px;
+  margin-top: 50px;
   margin-bottom: 25px;
   text-align: center;
   font-size: 30px;
@@ -626,15 +626,14 @@ main {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: space-between;
   -ms-flex-preferred-size: 33%;
       flex-basis: 33%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 28px 0;
+  padding: 35px 100px;
   background-color: #ffffff;
-  padding-bottom: 20px
 }
 .main-footer-logo:hover path {
   fill:#81b3d2;
@@ -647,6 +646,7 @@ main {
   line-height: 26px;
   font-weight: 700;
   color: #000000;
+  margin-left: 32px;
 }
 .footer-sosial ul {
   display: -webkit-box;
@@ -661,6 +661,7 @@ main {
   list-style: none;
   margin: 0px;
   padding: 0px;
+  margin-left: 28px;
 }
 .sosial-button {
   display: -webkit-box;
@@ -730,7 +731,7 @@ main {
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
 
   font-weight: 600;
   font-size: 16px;
@@ -767,11 +768,11 @@ main {
 
 .price-controls label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
 
   font-size: 14px;
-  line-height: 30px;
+  height: 30px;
   vertical-align: top;
 
   cursor: pointer;
@@ -788,7 +789,7 @@ main {
 .price-controls input {
   width: 50px;
   margin: 0;
-
+  height: 30px;
   color: inherit;
   font: inherit;
 
