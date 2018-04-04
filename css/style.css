@@ -51,9 +51,8 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  min-height: 56px;
   margin: 0;
-  padding: 0;
+  padding: 15px 0px;
   list-style: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -164,7 +163,7 @@ main {
 .town-container-info {
   -webkit-box-flex:0;
       -ms-flex:0 0 400px;
-          flex:0 0 400px;
+          flex:1 0 280px;
   padding: 50px 60px;
 }
 .town-container img {
@@ -180,7 +179,7 @@ main {
 .bridge-container-info {
   -webkit-box-flex:0;
       -ms-flex:0 0 400px;
-          flex:0 0 400px;
+          flex:1 0 280px;
   padding: 50px 50px;
 }
 .bridge-container img {
@@ -203,9 +202,6 @@ main {
   padding: 0px;
 }
 .town-reasons-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -216,7 +212,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 60px 55px;
+  padding: 70px 55px;
   width: 400px;
 }
 
@@ -259,10 +255,10 @@ main {
 .reasons-item {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 400px;
-          flex: 0 0 400px;
+          flex: 1 0 280px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 55px 60px;
+  padding: 50px 60px 60px;
   background-color: #eeeeee;
   }
 .reasons-item  h3 {
@@ -375,7 +371,7 @@ main {
 
 .form-show {
   display: flex;
-  animation: bounce 1.6s;
+  animation: bounce 1.2s;
 }
 .form-error {
   animation: shake 0.6s;
@@ -636,7 +632,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 120px;
+  padding: 28px 0;
   background-color: #ffffff;
   padding-bottom: 20px
 }
@@ -1190,6 +1186,7 @@ main {
 .hotels-picture {
   width:135px;
   margin-right: 30px;
+  padding-top: 3px;
 }
 .hotels-picture  p {
   margin: 0px;
@@ -1205,6 +1202,7 @@ main {
 .hotels-rating {
   margin-left:auto;
   width: 110px;
+  padding-top: 5px;
 }
 .hotels-booking-item {
   display: -webkit-box;
@@ -1249,13 +1247,16 @@ main {
   height: 18px;
   margin-bottom: 50px;
   margin-left: auto;
+  background-repeat: space;
+
 }
 .stars.stars-4 {
-  width: 73px;
+  padding-top: 5px;
+  width: 89px;
 }
 .stars.stars-3 {
-  width: 53px;
+  width: 63px;
 }
 .stars.stars-2 {
-  width: 38px;
+  width: 40px;
 }
