@@ -25,9 +25,7 @@ a {
 img {
   max-width: 100%;
 }
-.main-container {
-  background-color: #ffffff;
-}
+
 .main-navigation {
   position: relative;
   line-height: 26px;
@@ -143,6 +141,7 @@ img {
   margin: 0 auto;
   -webkit-box-shadow: 0 0 15px rgba(0, 1, 0, 0.2);
           box-shadow: 0 0 15px rgba(0, 1, 0, 0.2);
+  background-color: #ffffff;
 }
 .reasons-list {
   display: -webkit-box;
@@ -297,6 +296,7 @@ img {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  background-color: white;
 }
 .interested {
   display: block;
@@ -683,6 +683,7 @@ img {
   z-index: -2;
   border: none;
   background-image: url("../img/map.png");
+  display: block;
 }
 
 .main-footer {
@@ -1127,7 +1128,7 @@ img {
 .sorting-list a {
   color: #cacaca;
 }
-.sorting-item:not(.active) {
+.sorting-item:not(.active) a {
   border-bottom: 1px dotted #81b3d2;
 }
 .sorting-arrows {
