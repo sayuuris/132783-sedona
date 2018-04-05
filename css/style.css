@@ -93,12 +93,14 @@ img {
 .site-navigation-item.current a {
   color: #766357;
 }
+.index-image-container img {
+  display: block;
+}
 .town-title {
   display: block;
   background-color: white;
   text-align: center;
-  padding-top: 65px;
-  padding-bottom: 50px;
+  padding: 65px 300px 50px;
 }
 .town-title b {
   display: block;
@@ -291,13 +293,19 @@ img {
   display: block;
   margin-bottom: 20px;
 }
+.hotels-search {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
 .interested {
   display: block;
-  margin-top: 50px;
-  margin-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 25px;
   text-align: center;
   font-size: 30px;
   line-height: 36px;
+  background-color: white;
 }
 .interested-title {
   display: block;
@@ -306,6 +314,7 @@ img {
   margin: 0px;
   padding: 0px;
   padding-bottom: 45px;
+  background-color: white;
 }
 .form-plus-button {
   width: 568px;
@@ -345,7 +354,10 @@ img {
           justify-content: space-between;
   padding: 55px;
   display: none;
-  z-index: 3;
+  z-index: -1;
+}
+.booking label {
+  color:#000000;
 }
 .booking p {
   line-height: 26px;
@@ -482,37 +494,37 @@ img {
   padding: 11px;
   border: 0px;
 }
-.adults-minus-button:hover svg line {
+.adults-minus-button:hover line {
   stroke: #000000;
 }
-.adults-minus-button:active svg line {
+.adults-minus-button:active line {
   stroke: #8fbbd7;
 }
 .adults-minus-button svg {
   vertical-align: middle;
 }
-.adults-plus-button:hover svg line {
+.adults-plus-button:hover line {
   stroke: #000000;
 }
-.adults-plus-button:active svg line {
+.adults-plus-button:active line {
   stroke: #8fbbd7;
 }
 .adults-plus-button svg {
   vertical-align: middle;
 }
-.kids-minus-button:hover svg line {
+.kids-minus-button:hover line {
   stroke: #000000;
 }
-.kids-minus-button:active svg line {
+.kids-minus-button:active line {
   stroke: #8fbbd7;
 }
 .kids-minus-button svg {
   vertical-align: middle;
 }
-.kids-plus-button:hover svg line {
+.kids-plus-button:hover line {
   stroke: #000000;
 }
-.kids-plus-button:active svg line {
+.kids-plus-button:active line {
   stroke: #8fbbd7;
 }
 .kids-plus-button svg {
@@ -577,8 +589,8 @@ img {
 }
 @-webkit-keyframes bounce {
   0% {
-    -webkit-transform: translateY(-2000px);
-            transform: translateY(-2000px);
+    -webkit-transform: translateY(-397px);
+            transform: translateY(-397px);
   }
 
   70% {
@@ -668,8 +680,7 @@ img {
 
 .modal-map iframe {
   position: relative;
-  z-index: 2;
-
+  z-index: -2;
   border: none;
   background-image: url("../img/map.png");
 }
@@ -758,9 +769,7 @@ img {
   padding-right: 10px;
 }
 .benefits {
-
   color: #ffffff;
-  background-color: #83b1d1;
 
 }
 .sorting-form-container {
@@ -897,8 +906,8 @@ img {
 
 .btn-transparent {
   display: block;
-  margin: 0 auto;
-  padding: 6px 35px;
+  margin:0px 0px 0px 85px;
+  padding: 7px 35px;
 
   font-size: 14px;
   line-height: 20px;
@@ -1118,7 +1127,7 @@ img {
 .sorting-list a {
   color: #cacaca;
 }
-.sorting-list:not(.active) {
+.sorting-item:not(.active) {
   border-bottom: 1px dotted #81b3d2;
 }
 .sorting-arrows {
