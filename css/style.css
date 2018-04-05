@@ -25,7 +25,7 @@ a {
 img {
   max-width: 100%;
 }
-main {
+.main-container {
   background-color: #ffffff;
 }
 .main-navigation {
@@ -773,6 +773,7 @@ main {
           justify-content: space-between;
   padding: 27px 70px 5px 70px;
   background-image: url("../img/filter-background.jpg");
+  background-color: #595557;
 
 }
 .filter-range {
@@ -1087,6 +1088,7 @@ main {
   margin: 0px;
   padding: 0px;
   margin-right: 20px;
+  font-weight: 400;
 }
 .sorting-list {
   display: -webkit-box;
