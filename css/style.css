@@ -678,9 +678,12 @@ img {
   }
 }
 
-.modal-map iframe {
+.modal-map {
   position: relative;
   z-index: -2;
+}
+
+.modal-map iframe {
   border: none;
   background-image: url("../img/map.png");
   display: block;
