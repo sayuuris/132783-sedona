@@ -104,7 +104,7 @@ img {
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 .town-title span {
   display: block;
@@ -162,7 +162,7 @@ img {
   -webkit-box-flex:0;
       -ms-flex:0 0 400px;
           flex:1 0 280px;
-  padding: 50px 60px;
+  padding: 46px 60px;
 }
 .town-container img {
   -webkit-box-flex:0;
@@ -178,7 +178,7 @@ img {
   -webkit-box-flex:0;
       -ms-flex:0 0 400px;
           flex:1 0 280px;
-  padding: 50px 50px;
+  padding: 46px 50px;
 }
 .bridge-container img {
   -webkit-box-flex:0;
@@ -255,7 +255,7 @@ img {
           flex: 1 0 280px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 50px 60px 60px;
+  padding: 46px 60px 60px;
   background-color: #eeeeee;
 }
 .reasons-item  h3 {
@@ -310,7 +310,7 @@ img {
   line-height: 24px;
   margin: 0px;
   padding: 0px;
-  padding-bottom: 45px;
+  padding-bottom: 47px;
   background-color: white;
 }
 .form-plus-button {
@@ -329,7 +329,7 @@ img {
   margin: 0 auto;
   width: 568px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 32px;
   display: block;
 }
 .button-form:hover {
