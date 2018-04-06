@@ -97,14 +97,14 @@ img {
   display: block;
   background-color: white;
   text-align: center;
-  padding: 65px 300px 50px;
+  padding: 60px 300px 50px;
 }
 .town-title b {
   display: block;
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
 }
 .town-title span {
   display: block;
@@ -280,6 +280,7 @@ img {
   font-size: 21px;
   margin: 0px;
   margin-bottom: 25px;
+  padding: 0 70px;
 }
 .reasons-list p {
   margin: 0px;
@@ -691,7 +692,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 35px 100px;
+  padding: 38px 100px;
   background-color: #ffffff;
 }
 .main-footer-logo:hover path {
