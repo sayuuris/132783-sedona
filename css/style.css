@@ -25,7 +25,6 @@ a {
 img {
   max-width: 100%;
 }
-
 .main-navigation {
   position: relative;
   line-height: 26px;
@@ -110,7 +109,6 @@ img {
 .town-title span {
   display: block;
   line-height: 26px;
-
 }
 .index-image-container {
   position: relative;
@@ -128,7 +126,6 @@ img {
   height: 55px;
   background: url("../img/lines.png") center no-repeat;
 }
-
 .mountains {
   position: absolute;
   top: 60px;
@@ -216,7 +213,6 @@ img {
   padding: 60px 50px 55px;
   width: 400px;
 }
-
 .town-reasons-item--housing::before {
   content: "";
   display: block;
@@ -261,7 +257,7 @@ img {
           box-sizing: border-box;
   padding: 50px 60px 60px;
   background-color: #eeeeee;
-  }
+}
 .reasons-item  h3 {
   display: block;
   margin: 0px;
@@ -363,7 +359,6 @@ img {
   line-height: 26px;
   font-weight: 700;
 }
-
 .checkin-date {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -377,7 +372,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .form-show {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -446,7 +440,6 @@ img {
   margin: 0px;
   padding: 0px;
 }
-
 .booking-calendar path {
   fill: #a9a9a9;
 }
@@ -677,18 +670,15 @@ img {
             transform: translateX(10px);
   }
 }
-
 .modal-map {
   position: relative;
   z-index: -2;
 }
-
 .modal-map iframe {
   border: none;
   background-image: url("../img/map.png");
   display: block;
 }
-
 .main-footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -717,7 +707,7 @@ img {
   color: #000000;
   margin-left: 32px;
 }
-.footer-sosial ul {
+.footer-social ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -732,7 +722,7 @@ img {
   padding: 0px;
   margin-left: 28px;
 }
-.sosial-button {
+.social-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -746,7 +736,7 @@ img {
   height: 48px;
   background-color: #81b3d2;
 }
-.sosial-button:hover {
+.social-button:hover {
   background-color: #669ec0;
 }
 .social-button:active {
@@ -755,7 +745,6 @@ img {
 .social-button:active path {
   fill: #88b6d1
 }
-
 .footer-copyright p {
   margin: 0px;
   padding: 0px;
@@ -774,7 +763,6 @@ img {
 }
 .benefits {
   color: #ffffff;
-
 }
 .sorting-form-container {
   display: -webkit-box;
@@ -787,103 +775,77 @@ img {
   padding: 27px 70px 5px 70px;
   background-image: url("../img/filter-background.jpg");
   background-color: #595557;
-
 }
 .filter-range {
   width: 320px;
   margin-left: auto;
-
-
   color: #ffffff;
   text-transform: uppercase;
 }
-
 .filter-range-title {
   margin-bottom: 12px;
-
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
 }
-
 .price-controls {
   position: relative;
-
   margin-bottom: 20px;
-
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .price-controls::after {
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-
 .price-controls label {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
-
   font-size: 14px;
   height: 30px;
   vertical-align: top;
-
   cursor: pointer;
 }
-
 .min-price {
   padding-left: 65px;
 }
-
 .max-price {
   padding-left: 54px;
 }
-
 .price-controls input {
   width: 50px;
   margin: 0;
   height: 30px;
   color: inherit;
   font: inherit;
-
   background: none;
   border: none;
 }
-
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
-
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
-
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
-
 .range-toggle {
   position: absolute;
   top: -9px;
@@ -892,44 +854,34 @@ img {
   background: url(../img/filter-button.svg) center no-repeat;
   cursor: pointer;
   background-size: contain;
-
 }
-
 .range-toggle:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
-
 .range-toggle-min {
   left: -3px;
 }
-
 .range-toggle-max {
   left: 80%;
 }
-
 .btn-transparent {
   display: block;
   margin:0px 0px 0px 85px;
   padding: 7px 35px;
-
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
 }
-
 .btn-transparent:hover {
   color: #000000;
-
   background: #ffffff;
 }
-
 .benefits-list {
   list-style: none;
   display: -webkit-box;
@@ -942,11 +894,9 @@ img {
           -webkit-box-align: start;
               -ms-flex-align: start;
                   align-items: flex-start;
-
   margin: 0px;
   padding: 0px;
 }
-
 .benefits legend {
   font-size:16px;
   line-height: 26px;
@@ -954,7 +904,6 @@ img {
   margin:0px;
   padding: 0px;
 }
-
 .infrastructure {
   margin: 0px;
   padding: 0px;
@@ -966,7 +915,6 @@ img {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 256px;
           flex: 0 0 256px;
-
 }
 .infrastructure legend {
   margin-bottom: 22px;
@@ -976,11 +924,8 @@ img {
   padding-left: 40px;
 }
 .benefits-item label {
-
   position: relative;
-
   display: block;
-
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -989,9 +934,7 @@ img {
 }
 .type-of-accommodation-item label {
   position: relative;
-
   display: block;
-
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -1028,7 +971,6 @@ img {
      -ms-flex: 0 0 256px;
          flex: 0 0 256px;
 }
-
 .type-of-accommodation-list {
   list-style: none;
   -webkit-box-sizing: border-box;
@@ -1057,7 +999,6 @@ img {
   border: 0px;
   margin: 0px;
   padding: 0px;
-
 }
 .button-filter {
   font-size: 14px;
@@ -1167,7 +1108,6 @@ img {
 .arrow-down.active path {
   fill: #9fc4dc;
 }
-
 .sorting-item.active a {
   color: #9fc4dc ;
 }
@@ -1183,17 +1123,14 @@ img {
   list-style: none;
   margin: 0px;
   padding: 0px;
-
 }
-
 .hotels-booking h3 {
-   font-size: 21px;
+  font-size: 21px;
   line-height: 26px;
   color: #000000;
   font-weight: 700;
   margin: 0px;
   margin-bottom: 9px;
-
 }
 .rating {
   background-color: #f2f2f2;
@@ -1212,8 +1149,6 @@ img {
   text-transform: uppercase;
   width: 110px;
   text-align: center;
-
-
 }
 .more-info:hover {
   background-color: #669ec0;
@@ -1232,7 +1167,6 @@ img {
   text-transform: uppercase;
   width: 140px;
   text-align: center;
-
 }
 .reservation:hover {
   background-color: #604e43;
@@ -1241,20 +1175,15 @@ img {
   color: #8bb4cf;
   background-color: #503e33;
 }
-
 .visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   -webkit-clip-path: inset(100%);
-
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -1273,7 +1202,6 @@ img {
       -ms-flex: 1 0 100px;
           flex: 1 0 100px;
   padding-right: 40px;
-
 }
 .hotels-rating {
   margin-left:auto;
@@ -1296,7 +1224,6 @@ img {
 .hotels-booking-item:last-child {
   border-bottom: 1px solid #e5e5e5;
 }
-
 .hotels-discription p {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 110px;
@@ -1324,7 +1251,6 @@ img {
   margin-bottom: 50px;
   margin-left: auto;
   background-repeat: space;
-
 }
 .stars.stars-4 {
   padding-top: 5px;
